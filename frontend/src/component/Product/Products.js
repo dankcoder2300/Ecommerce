@@ -44,7 +44,7 @@ const Products = () => {
   const setCurrentPageNo = (e) => {
     setCurrentPage(e);
   };
-  const priceHandler = (event, newPrice) => {
+  const priceHandler = ( newPrice) => {
     setPrice(newPrice);
   };
   useEffect(() => {
