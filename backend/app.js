@@ -5,7 +5,7 @@ const bodyParser = require("body-parser");
 const fileUpload = require("express-fileupload");
 const dotenv = require("dotenv");
 const app = express();
-// const path= require("path")
+const path= require("path")
 
 // config
 dotenv.config({ path: "backend/config/config.env" });
